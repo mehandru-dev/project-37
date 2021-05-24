@@ -8,7 +8,7 @@ var bg="white";
 var gamestate="play";
 function preload(){
   trex_running = loadAnimation("images/trex1.png","images/trex3.png","images/trex4.png");
-  trex_collided = loadImage("../images/trex_collided.png");
+  trex_collided = loadImage("images/trex_collided.png");
   gameover = loadImage("images/gameOver.png");
   groundImage = loadImage("images/ground2.png");
   
